@@ -16,4 +16,4 @@
 
 let media = 10
 
-media >= 7 ? console.log("Aprovado") : console.log("Reprovado")
+media >= 7 ? console.log("Approved") : console.log("Reproved")

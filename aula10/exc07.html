@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+  </head>
+  <body>
+    <h1>Somando valores</h1>
+    <input type="number" id="txtn1"> +
+    <input type="number" id="txtn2">
+    <button onclick="sum()">Somar</button>
+    <div id="res"></div>
+    <script>
+
+      function sum() {
+        const n1 = document.getElementById('txtn1')
+        const n2 = document.querySelector('#txtn2')
+        const soma = Number(n1.value) + Number(n2.value)
+
+        const res = document.querySelector('#res')
+        res.innerText = `A soma é ${soma}`
+      }
+
+    </script>
+  </body>
+</html>
