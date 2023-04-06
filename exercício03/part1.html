@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos contar!</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Vamos contar</h1>
+    </header>
+    <section>
+      <div class="card-form">
+        <div class="card-form-item">
+          <label>Início:
+            <input
+              type="number"
+              id="start"
+            >
+          </label>
+        </div>
+        <div class="card-form-item">
+          <label>Fim:
+            <input
+              type="number"
+              id="end"
+            >
+          </label>
+        </div>
+        <div class="card-form-item">
+          <label>Passo:
+            <input
+              type="number"
+              id="step"
+            >
+          </label>
+        </div>
+      </div>
+      <button onclick="count()">Contar</button>
+      <p id="message">Preparando a contagem...</p>
+    </section>
+    <footer>
+      <p>© CursoemVídeo</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
